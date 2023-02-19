@@ -1,4 +1,4 @@
-# Install script for directory: D:/prog/ahhTesting/tryhard
+# Install script for directory: D:/prog/ahhTesting/takinghard/yes
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/prog/ahhTesting/tryhard/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/prog/ahhTesting/takinghard/yes/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

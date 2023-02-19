@@ -1,0 +1,3 @@
+"D:\install\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\tryhard.dir/objects.a
+D:\install\mingw\mingw64\bin\ar.exe qc CMakeFiles\tryhard.dir/objects.a @CMakeFiles\tryhard.dir\objects1.rsp
+D:\install\mingw\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\tryhard.dir/objects.a -Wl,--no-whole-archive -o tryhard.exe -Wl,--out-implib,libtryhard.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\tryhard.dir\linklibs.rsp
